@@ -1,0 +1,74 @@
+@media only screen and (max-width: 590px) {
+	body {
+		font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	}
+
+	a {
+		color: #00B7FF;
+	}
+
+	body {
+		background: #db2e34;
+	}
+
+	.content {
+		height: 550px;
+		margin: 0px auto;
+	}
+
+	.image {
+		float: left;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: 10px;
+	}
+
+	img {
+		width: 350px;
+    	height: 500px;
+	}
+
+	.promo {
+		position: absolute;
+		z-index: 10;
+		top: 0;
+		left: 0;
+		padding-top: 150px;
+		margin: auto 20px;
+		text-align: justify;
+		color: white;
+	}
+
+	.promo div {
+		border-radius: 8px;
+		background-color: #f4dc4e;
+		padding: 10px 20px 10px 20px;
+		opacity: 0.9;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+
+	h1 {
+		font: 2em DinnCondensed, sans-serif;
+		text-shadow: #8b181c 1px -1px 0px;
+		margin-bottom: 16px;
+	}
+
+	p, button {
+		font: 1em/1.5em Arial, sans-serif;
+		margin-bottom: 15px;
+	}
+
+	button {
+		background-color: #000000;
+		color: #fff;
+		border-radius: 6px;
+		text-transform: uppercase;
+	}
+
+	button:hover {
+		background-color: #f24949;
+		cursor: pointer;
+	}
+
+}

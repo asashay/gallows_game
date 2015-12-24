@@ -1,0 +1,7 @@
+<% if (user) { %>
+	<form id="logoutForm" action="/logout">
+		<button>Вийти з чату</button>
+   	</form>	
+<% } else { %>
+	<button><a href="#openModal">Увійти в чат</a></button>
+<% } %>

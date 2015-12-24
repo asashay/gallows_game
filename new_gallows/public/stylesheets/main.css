@@ -1,0 +1,56 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body {
+	background: #db2e34;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.image {
+	flex-basis: 50%;
+	flex-grow: 4;
+    margin-top: 20px;
+}
+
+.promo {
+	flex-basis: 50%;
+	flex-grow: 1;
+	padding-top: 150px;
+	text-align: justify;
+	color: white;
+}
+
+h1 {
+	font: 3.5em DinnCondensed, sans-serif;
+	text-shadow: #8b181c 1px -1px 0px;
+	margin-bottom: 8px;
+}
+
+p, button {
+	font: 1.2em/1.5em Arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+button {
+	background-color: #000000;
+	color: #fff;
+	border-radius: 6px;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: #f24949;
+	cursor: pointer;
+}
