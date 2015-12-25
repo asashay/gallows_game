@@ -23,13 +23,12 @@ socket
 	printStatus("З'єднання втрачено");
 	form.off('submit', sendMessage);
 	input.prop('disabled', true);
-			// setTimeout(reconnect, 500);
 		});
 
 function sendMessage() {
 	var text = input.val();
 	socket.emit('message', text, function() {
-		$('<li>').text("я> " + text).css("color", "#34db2e").appendTo(ul);
+		$('<li>').text("я> " + text).css({"color": "#34db2e", "font-weight": "bold"}).appendTo(ul);
 				//printMessage("я> " + text);
 			});
 
@@ -42,5 +41,5 @@ function printStatus(status) {
 }
 
 function printMessage(text) {
-	$('<li>').text(text).appendTo(ul);
+	$('<li>').text(text).css({"color": "#327add", "font-weight": "bold"}).appendTo(ul);
 }
