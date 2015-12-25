@@ -224,3 +224,16 @@ canvas {
 .close:hover {
     background: #00d9ff;
 }
+
+.symbolsContainer div:hover {
+    background-color: #fb5656;
+}
+
+#openModal form {
+    font-weight: bold;
+    color: black;
+}
+
+#loginButton {
+    color: white;
+}
